@@ -4,7 +4,7 @@ Starting your Terraform project is made easy using this template.
 
 ## An Overview
 
-This template gives a jump start to your Terraform project as a DevOps Engineer tool. A boilerplate using Terraform's [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure)
+This template gives a jump start to your Terraform project as a DevOps tool. A boilerplate using Terraform's [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure)
 a.k.a. Terraform Module boilerplate.
 
 You may be overwhelmed by reading Terraform's official documentation, so I might think this template is useful.
@@ -30,12 +30,6 @@ terraform --help
 .. and you're ready to go
 
 ### Executing program
-
-* After you've downloaded this archive, navigate to the project folder using your CLI or Terminal command tool.
-
-```code
-cd terraform-module-template
-```
 
 Basically, you only need these 3 commands to execute this script.
 * Initializing the code and installing dependency packages
