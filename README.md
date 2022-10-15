@@ -2,6 +2,8 @@
 
 Starting your Terraform project is made easy using this template.
 
+<img alt="Terraform" src="https://www.datocms-assets.com/2885/1629941242-logo-terraform-main.svg" width="600px">
+
 ## An Overview
 
 This template gives a jump start to your Terraform project as a DevOps Engineer tool. A boilerplate using Terraform's [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure)
