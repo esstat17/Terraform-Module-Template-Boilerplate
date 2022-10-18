@@ -59,28 +59,31 @@ terraform destroy -auto-approve
 ```
 
 ## The File Tree
-You can read more infromation on [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure).
+
+You can find the file tree below with a commented label.
+
 ```bash
 .
 └── terraform-module-template
     ├── CHANGELOG.md
     ├── LICENSE
-    ├── main.tf
+    ├── main.tf # ROOT main.tf
     ├── modules
     │   ├── module-child-a
     │   │   ├── CHANGELOG.md
     │   │   ├── LICENSE
-    │   │   ├── main.tf
+    │   │   ├── main.tf # CHILD main.tf
     │   │   ├── outputs.tf
     │   │   ├── README.md
     │   │   ├── terraform.tf
-    │   │   └── variables.tf
+    │   │   └── variables.tf # Reading values from INPUT variables
     │   └── module-child-b
     ├── outputs.tf
     ├── README.md
     ├── terraform.tf
-    └── variables.tf
+    └── variables.tf # INPUT variables in the root main.tf
 ```
+You can read more infromation on [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure).
 
 ## Help
 
