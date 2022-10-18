@@ -36,7 +36,7 @@ terraform --help
 * After you've downloaded this archive, navigate to the project folder using your CLI or Terminal command tool.
 
 ```code
-cd terraform-module-template
+cd Terraform-Module-Template-Boilerplate-*
 ```
 
 Basically, you only need these 3 commands to execute this script.
@@ -99,7 +99,7 @@ Contributors names and contact info
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
