@@ -2,9 +2,11 @@
 
 Starting your Terraform project is made easy using this template.
 
+<img alt="Terraform" src="https://www.datocms-assets.com/2885/1629941242-logo-terraform-main.svg" width="600px">
+
 ## An Overview
 
-This template gives a jump start to your Terraform project as a DevOps tool. A boilerplate using Terraform's [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure)
+This template gives a jump start to your Terraform project as a DevOps Engineer tool. A boilerplate using Terraform's [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure)
 a.k.a. Terraform Module boilerplate.
 
 You may be overwhelmed by reading Terraform's official documentation, so I might think this template is useful.
@@ -31,6 +33,13 @@ terraform --help
 
 ### Executing program
 
+* After you've downloaded this archive, navigate to the project folder using your CLI or Terminal command tool.
+
+```code
+git clone https://github.com/esstat17/Terraform-Module-Template-Boilerplate.git
+cd Terraform-Module-Template-Boilerplate
+```
+
 Basically, you only need these 3 commands to execute this script.
 * Initializing the code and installing dependency packages
 ```code
@@ -51,28 +60,31 @@ terraform destroy -auto-approve
 ```
 
 ## The File Tree
-You can read more infromation on [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure).
+
+You can find the file tree below with a commented label.
+
 ```bash
 .
 └── terraform-module-template
     ├── CHANGELOG.md
     ├── LICENSE
-    ├── main.tf
+    ├── main.tf # ROOT main.tf
     ├── modules
     │   ├── module-child-a
     │   │   ├── CHANGELOG.md
     │   │   ├── LICENSE
-    │   │   ├── main.tf
+    │   │   ├── main.tf # CHILD main.tf
     │   │   ├── outputs.tf
     │   │   ├── README.md
     │   │   ├── terraform.tf
-    │   │   └── variables.tf
+    │   │   └── variables.tf # Reading values from INPUT variables
     │   └── module-child-b
     ├── outputs.tf
     ├── README.md
     ├── terraform.tf
-    └── variables.tf
+    └── variables.tf # INPUT variables in the root main.tf
 ```
+You can read more infromation on [Standard Module Structure](https://www.terraform.io/language/modules/develop/structure).
 
 ## Help
 
@@ -91,7 +103,7 @@ Contributors names and contact info
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 

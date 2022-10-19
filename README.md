@@ -36,7 +36,8 @@ terraform --help
 * After you've downloaded this archive, navigate to the project folder using your CLI or Terminal command tool.
 
 ```code
-cd Terraform-Module-Template-Boilerplate-*
+git clone https://github.com/esstat17/Terraform-Module-Template-Boilerplate.git
+cd Terraform-Module-Template-Boilerplate
 ```
 
 Basically, you only need these 3 commands to execute this script.
