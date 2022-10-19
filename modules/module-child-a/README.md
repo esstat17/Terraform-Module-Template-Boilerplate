@@ -1,6 +1,6 @@
-# Terraform Module Template Boilerplate
+[![MIT License][license-shield]][license-url]
 
-Starting your Terraform project is made easy using this template.
+# Terraform Module Template Boilerplate
 
 <img alt="Terraform" src="https://www.datocms-assets.com/2885/1629941242-logo-terraform-main.svg" width="600px">
 
@@ -111,3 +111,8 @@ Inspiration, code snippets, etc.
 * [Terraform Basics](https://www.terraform.io/intro)
 * [Terraform Installation](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 * [Terraform Modules](https://www.terraform.io/language/modules/develop)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[license-shield]: https://img.shields.io/github/license/esstat17/Terraform-Module-Template-Boilerplate.svg?style=for-the-badge
+[license-url]: https://github.com/esstat17/Terraform-Module-Template-Boilerplate/blob/main/README.md
+Starting your Terraform project is made easy using this template.
