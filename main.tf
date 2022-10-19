@@ -11,6 +11,6 @@ module "your_root_module" {
   child_cidr = var.root_cidr
   child_name = var.root_name
 
-  # tags - is not used in the actual AWS VPC
+  # tags - is only used in the actual AWS VPC
   child_tags = var.root_tags
 }

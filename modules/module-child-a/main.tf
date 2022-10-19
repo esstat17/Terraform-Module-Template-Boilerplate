@@ -17,3 +17,4 @@ resource "fakewebservices_vpc" "primary_vpc" {
   name       = var.child_name
   cidr_block = var.child_cidr
 }
+

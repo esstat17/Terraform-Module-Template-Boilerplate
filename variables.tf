@@ -16,7 +16,7 @@ variable "root_cidr" {
 
 variable "root_tags" {
   description = "This will be used in the AWS VPC"
-  type        = map
+  type        = map(any)
   default = {
     Name = "dev"
   }
