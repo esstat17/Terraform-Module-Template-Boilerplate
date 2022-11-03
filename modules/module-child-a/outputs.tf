@@ -3,6 +3,6 @@
 # See docs @https://www.terraform.io/language/values
 
 output "fake_vpc_id" {
-     description = "Getting output from this child module and passing this value on to the parent output."
-    value = fakewebservices_vpc.primary_vpc.id
+  description = "Getting output from this child module and passing this value on to the parent output."
+  value       = fakewebservices_vpc.primary_vpc.id
 }
